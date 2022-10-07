@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Exo 2', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+}
+
+#logoutbtn {
+    display: none;
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+    border: 0px;
+    border-radius: 0.5rem;
+    height: 2rem;
+    width: 6rem;
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+    text-align: center;
+    vertical-align: center;
+    background-size: 200% auto;
+}
+
+#logoutbtn:hover {
+    color: white;
+    background-color: red;
+    border: 2px solid red;
+}
+
+#login-content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 8rem;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 0.5rem;
+}
+
+#incorrect {
+    display: flex;
+    justify-content: center;
+    color: red;
+}
+
+#username {
+    height: 2rem;
+    border-radius: 1rem;
+    border: 0px;
+    background-color: rgb(234, 234, 234);
+    text-align: center;
+}
+
+#username::placeholder {
+    text-align: center;
+}
+
+#password {
+    height: 2rem;
+    border-radius: 1rem;
+    border: 0px;
+    background-color: rgb(234, 234, 234);
+    text-align: center;
+}
+
+#password::placeholder {
+    text-align: center;
+}
+
+.login-btn {
+    height: 2rem;
+    background-image: linear-gradient(to right, #E55D87 0%, #5FC3E4  51%, #E55D87  100%);
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 1rem;
+    border: 0px;
+}
+
+.login-btn:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+#success {
+    display: none;
+    justify-content: center;
+    font-size: 2rem;
+}

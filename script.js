@@ -1,6 +1,6 @@
 // Array with users
 const confirmedUsers = [ {
-    username: "Fredrik", 
+    username: "fredrik", 
     password: "12345"
 }
 ]

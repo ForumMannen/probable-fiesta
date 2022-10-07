@@ -62,7 +62,7 @@ form {
 }
 
 #incorrect {
-    display: flex;
+    display: none;
     justify-content: center;
     color: red;
 }

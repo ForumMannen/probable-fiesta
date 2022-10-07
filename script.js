@@ -30,6 +30,7 @@ function logIn() {
         }
     }
     error.innerText = ("Incorrect username or password, please try again!");
+    error.style.display = "flex";
 };
 
 function succesfulLogIn() {
